@@ -1,0 +1,46 @@
+#for_nav{
+  background-repeat: no-repeat;
+  width: 87rem;
+  height: 7rem;
+}
+
+#first{
+  color: white;
+  width: 87rem;
+  height: 50rem;
+  background-size: contain;
+  background-repeat: no-repeat;  
+}
+
+#second{
+  background: #f7b617;
+  width: 87rem;
+  height: 70rem;
+}
+
+#third{
+  background-image: url("imagenes/conduce.jpg");
+  width: 87rem;
+  height: 70rem;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+
+#fourth{
+  background: #f7b617;
+  width: 87rem;
+  height: 70rem;
+}
+
+#fifth{
+  background: #2b2b2b;
+  width: 87rem;
+  height: 70rem;
+}
+
+#start_to_travel{
+  background-color: #f7b617;
+  width: 50rem;
+  height: 30rem;
+}
