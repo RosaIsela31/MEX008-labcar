@@ -1,12 +1,12 @@
 #for_nav{
   background-repeat: no-repeat;
-  width: 87rem;
+  width: 100%;
   height: 7rem;
 }
 
 #first{
   color: white;
-  width: 215vh;
+  width: 100%;
   position: relative;
 }
 
@@ -15,31 +15,39 @@
   position: relative;
 }
 
+#taxi{
+  width: 100%;
+  padding: 0%;
+}
+
 #second{
   background: #f7b617;
-  width: 215vh;
+  width: 100%;
   height: 200vh;
 }
 
 
 #third{
-  background-image: url("imagenes/conduce.jpg");
-  width: 87rem;
-  height: 70rem;
-  background-size: cover;
-  background-repeat: no-repeat;  
+  color: white;
+  width: 100%;
+  position: relative; 
+}
+
+#third img{
+  width: 100%;
+  position: relative;
 }
 
 
 #fourth{
   background: #f7b617;
-  width: 87rem;
+  width: 100%;
   height: 70rem;
 }
 
 #fifth{
   background: #2b2b2b;
-  width: 87rem;
+  width: 100%;
   height: 70rem;
 }
 
@@ -54,16 +62,33 @@
 
 #new_app{
   background-color: blue;
-  width: 190vh;
+  width: 100%;
   height: 170vh;
 }
 
+#drive_when_you_want_transparent{
+  background-color: gray;
+  position: absolute;
+  width: 100%;
+  height: 39%;
+  top: 30%;  
+}
+
+input{
+  top: 0%;
+  padding: 0%;
+}
+
+button{
+  top: 0%;
+  padding: 0%;
+}
 
 /* INICIA RESPONSIVE*/
 
 *{
   /* border box le dice a un elemento que todas las propiedades de un elemento, como su padding, va a estar dentro del porcentaje que le asignes, sin border box, toma el padding hacia afuera, por ejemplo. */
-   box-sizing: border-box; 
+  box-sizing: border-box; 
   margin: 0;
   padding: 0;
 } 
@@ -118,7 +143,7 @@
   .row:after{
     clear:both;
   } 
-  
+
    [class*= "col-" ]{
     float: left;
     min-height: 10px;
@@ -155,3 +180,4 @@
 
   
 /* TERMINA RESPONSIVE */
+
