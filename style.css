@@ -6,7 +6,7 @@
 
 #first{
   color: white;
-  width: 87rem;
+  width: 215vh;
   position: relative;
 }
 
@@ -46,4 +46,8 @@
 #start_to_travel{
   background-color: #f7b617;
   position: absolute;
+  width: 75%;
+  height: 30%;
+  top: 40%;  
+  right: 0%;
 }
