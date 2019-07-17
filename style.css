@@ -17,8 +17,8 @@
 
 #second{
   background: #f7b617;
-  width: 87rem;
-  height: 70rem;
+  width: 215vh;
+  height: 200vh;
 }
 
 
@@ -46,8 +46,14 @@
 #start_to_travel{
   background-color: #f7b617;
   position: absolute;
-  width: 75%;
-  height: 30%;
-  top: 40%;  
+  width: 80%;
+  height: 39%;
+  top: 30%;  
   right: 0%;
+}
+
+#new_app{
+  background-color: blue;
+  width: 190vh;
+  height: 170vh;
 }
