@@ -153,6 +153,11 @@ button{
   .menu ul{
     flex-direction: column;
   }
+
+  #btn-menu:checked ~ .menu {
+    margin: 0%;
+  }
+
 }
 
 /* INICIA RESPONSIVE*/
