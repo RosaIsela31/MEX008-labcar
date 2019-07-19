@@ -4,6 +4,11 @@
   height: 7rem;
 }
 
+header{
+  width: 100%;
+  background-color: white;
+}
+
 #first{
   color: white;
   width: 100%;
