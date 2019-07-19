@@ -29,8 +29,8 @@ label img{
 }
 
 #logo{
-  width: 100px;
-  height: 50px;
+  width: 25vh;
+  float: left;
 }
 
 .menu ul{
@@ -146,8 +146,8 @@ button{
 
   .menu{
     position: absolute;
-    width: 70%;
-    margin-left: -70%;
+    width: 30%;
+    margin-left: -30%;
     transition: all 0.5s;
   }
 
@@ -157,6 +157,10 @@ button{
 
   #btn-menu:checked ~ .menu {
     margin: 0%;
+  }
+
+  #logo{
+    float: right;
   }
 
 }
