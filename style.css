@@ -9,6 +9,39 @@ header{
   background-color: white;
 }
 
+header label{
+  /* display: block; */
+  width: 30px;
+  height: 30;
+  border: 1px solid #fff;
+  /* padding: 10px; */
+}
+
+header label:hover{
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.3);
+}
+
+label img{
+  width: 2%;
+}
+
+#logo{
+  width: 100px;
+  height: 50px;
+}
+
+.menu ul{
+  margin: 0%;
+  list-style: none;
+  padding: 0%;
+  display: flex;
+}
+
+#btn-menu{
+  display: none;
+}
+
 #first{
   color: white;
   width: 100%;
