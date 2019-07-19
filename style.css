@@ -6,15 +6,16 @@
 
 header{
   width: 100%;
+  height: 30vh;
   background-color: white;
 }
 
 header label{
-  /* display: block; */
+  display: none;
   width: 30px;
-  height: 30;
+  height: 30px;
   border: 1px solid #fff;
-  /* padding: 10px; */
+  padding: 10px;
 }
 
 header label:hover{
@@ -23,7 +24,8 @@ header label:hover{
 }
 
 label img{
-  width: 2%;
+  width: 30px;
+  height: 30px;
 }
 
 #logo{
@@ -36,6 +38,7 @@ label img{
   list-style: none;
   padding: 0%;
   display: flex;
+  justify-content: flex-end;
 }
 
 .menu li a{
@@ -131,6 +134,25 @@ input{
 button{
   top: 0%;
   padding: 0%;
+}
+
+
+
+
+@media (max-width: 768px){
+  header label{
+    display: block;
+  }
+
+  .menu{
+    position: absolute;
+    width: 70%;
+    margin-left: -70%;
+  }
+
+  .menu ul{
+    flex-direction: column;
+  }
 }
 
 /* INICIA RESPONSIVE*/
