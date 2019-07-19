@@ -148,6 +148,7 @@ button{
     position: absolute;
     width: 70%;
     margin-left: -70%;
+    transition: all 0.5s;
   }
 
   .menu ul{
