@@ -38,6 +38,17 @@ label img{
   display: flex;
 }
 
+.menu li a{
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu li:hover{
+  background-color: rgb(0,0,0,0.3);
+}
+
 #btn-menu{
   display: none;
 }
