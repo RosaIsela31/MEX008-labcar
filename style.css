@@ -115,10 +115,12 @@ label img{
 
 #new_app{
   background-color: blue;
+  position: relative;
   width: 80%;
-  height: 80vh;
+  height: 75%;
   margin: 0 auto;
   padding-top: 4.5%;
+  top: 12%;  
 }
 
 #drive_when_you_want_transparent{
