@@ -29,14 +29,15 @@ label img{
 }
 
 #logo{
-  width: 25vh;
+  width: 35vh;
   float: left;
+  padding: 3%;
 }
 
 .menu ul{
   margin: 0%;
   list-style: none;
-  padding: 0%;
+  padding: 3%;
   display: flex;
   justify-content: flex-end;
 }
@@ -75,7 +76,7 @@ label img{
 #second{
   background: #f7b617;
   width: 100%;
-  height: 200vh;
+  height: 110vh;
 }
 
 
@@ -114,8 +115,10 @@ label img{
 
 #new_app{
   background-color: blue;
-  width: 100%;
-  height: 170vh;
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  padding-top: 4.5%;
 }
 
 #drive_when_you_want_transparent{
