@@ -73,11 +73,12 @@ label img{
   padding: 0%;
 }
 
-#second{
+/* este es para web
+  #second{
   background: #f7b617;
   width: 100%;
   height: 110vh;
-}
+} */
 
 
 #third{
@@ -113,7 +114,8 @@ label img{
   right: 0%;
 }
 
-#new_app{
+/* esto es para web
+  #new_app{
   background-color: blue;
   position: relative;
   width: 80%;
@@ -121,7 +123,7 @@ label img{
   margin: 0 auto;
   padding-top: 4.5%;
   top: 12%;  
-}
+} */
 
 #drive_when_you_want_transparent{
   background-color: gray;
@@ -166,6 +168,26 @@ button{
 
   #logo{
     float: right;
+  }
+
+  #second{
+    background: #f7b617;
+    width: 100%;
+    height: 100vh;
+  }  
+
+  #new_app{
+    background-color: blue;
+    position: relative;
+    width: 95%;
+    height: 80%;
+    margin: 0 auto;
+    padding-top: 4.5%;
+    top: 10%;  
+  }
+
+  #cel{
+    width: 50%;
   }
 
 }
