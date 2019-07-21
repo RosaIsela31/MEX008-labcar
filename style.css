@@ -79,7 +79,10 @@ label img{
   width: 100%;
   height: 110vh;
 } */
-
+p{
+  margin: 0%;
+  padding: 0%;
+}
 
 #third{
   color: white;
@@ -96,7 +99,7 @@ label img{
 #fourth{
   background: #f7b617;
   width: 100%;
-  height: 70rem;
+  height: 50rem;
 }
 
 #fifth{
@@ -176,17 +179,18 @@ button{
   #second{
     background: #f7b617;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
   }  
 
   #new_app{
-    background-color: blue;
+    background-color: #f7b617;
     position: relative;
     width: 95%;
     height: 80%;
     margin: 0 auto;
     padding-top: 4.5%;
     top: 7%; 
+    border: 1px solid white;
   }
 
   #cel{
