@@ -87,7 +87,8 @@ p{
 #third{
   color: white;
   width: 100%;
-  position: relative; 
+  position: relative;
+  height: 83vh; 
 }
 
 #third img{
@@ -98,8 +99,28 @@ p{
 
 #fourth{
   background: #f7b617;
+  color: white;
   width: 100%;
   height: 50rem;
+}
+
+#destination,
+#initial_location{
+  background-color: transparent;
+  color: white;
+  width: 50%;
+  padding: 2%;
+  border-radius: 10%;
+  border: 2px solid white;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
+
+#rates{
+  margin-top: 20%;
+  margin-left: 7%;
 }
 
 #fifth{
