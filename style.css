@@ -110,12 +110,18 @@ p{
   color: white;
   width: 50%;
   padding: 2%;
-  border-radius: 10%;
+  border-radius: 10px;
   border: 2px solid white;
 }
 
 ::-webkit-input-placeholder{
   color: white;
+}
+
+#trace_route{
+  background-color: #fff;
+  width: 20%;
+  padding: 2%;
 }
 
 #rates{
