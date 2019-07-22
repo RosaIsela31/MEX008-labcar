@@ -20,7 +20,6 @@ header label{
 
 header label:hover{
   cursor: pointer;
-  background-color: rgba(0,0,0,0.3);
 }
 
 label img{
@@ -31,6 +30,19 @@ label img{
 #logo{
   width: 35vh;
   float: left;
+  padding: 3%;
+}
+
+#logo_blanco{
+  height: 5vh;
+  width: 20%;
+}
+
+#left{
+  color: white;
+}
+
+#left ul li{
   padding: 3%;
 }
 
@@ -178,6 +190,13 @@ p{
   top: 30%;  
 }
 
+#download_app{
+  background-color: #fff;
+  padding: 2%;
+  width: 25%;
+  border-radius: 10px;
+}
+
 
 
 input{
@@ -218,7 +237,8 @@ button{
   }
 
   #second{
-    background: #f7b617;
+    background-color: #f7b617;
+    color: white;
     width: 100%;
     height: 110vh;
   }  
@@ -236,6 +256,12 @@ button{
 
   #cel{
     width: 50%;
+    margin-left: 26%;
+  }
+
+  #p_new_app{
+    margin-top: 8%;
+    margin-left: 40%;
   }
 
   #p_drive_when_you_want{
@@ -320,33 +346,7 @@ button{
     padding: 12px;
   } 
 
-   @media screen and (max-width: 768px){
    
-    .color {
-      width: 100%;
-    }
-  } 
-
-   @media screen and (max-width: 320px){
-   
-    .color {
-      width: 100%;
-    }
-  } 
-
-   @media screen and (max-width: 375px){
-   
-    .color {
-      width: 100%;
-    }
-  }
-
-   @media screen and (max-width: 425px){
-   
-    .color {
-      width: 100%;
-    }
-  } 
 
   
 /* TERMINA RESPONSIVE */
