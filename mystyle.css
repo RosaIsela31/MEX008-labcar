@@ -1,5 +1,33 @@
 /* ---------------------------------------------------------- */
-@media (max-width: 1024px){
+@media (max-width: 1024px){ 
+ 
+
+/* #new_app{
+    background-color: #f7b617;
+    position: relative;
+    width: 95%;
+    height: 80%;
+    margin: 0 auto;
+    padding-top: 4.5%;
+    top: 7%; 
+    border: 1px solid red;
+} */
+
+#A,
+#B{
+  width: 50%;
+  height: 20vh;
+}
+
+#A{
+  background-color: red;
+  float: right;
+}
+
+#B{
+  background-color: green;
+}
+
 #start_to_travel_desktop{
   visibility: visible;
   background-color: #f7b617;
@@ -17,6 +45,9 @@
   border-radius: 10px;
 }
 
+
+#p_arrive_destination,
+#new_app,
 #start_to_travel_tablet{
   visibility: collapse;
 }
@@ -283,7 +314,7 @@ button{
   #start_to_travel_desktop{
     visibility: collapse;
   }
-
+  #p_arrive_destination,
   #start_to_travel_tablet{
     visibility: visible;
   }
@@ -318,6 +349,7 @@ button{
   }  
 
   #new_app{
+    visibility: visible;
     background-color: #f7b617;
     position: relative;
     width: 95%;
