@@ -1,3 +1,26 @@
+/* ---------------------------------------------------------- */
+@media (max-width: 1024px){
+#start_to_travel_desktop{
+  visibility: visible;
+  background-color: #f7b617;
+  position: absolute;
+  width: 50%;
+  height: 39%;
+  top: 30%;  
+  right: 0%;
+}
+#btn_become_drive_desktop,
+#btn_register_desktop{
+  background-color: #fff;
+  padding: 2%;
+  width: 25%;
+  border-radius: 10px;
+}
+
+#start_to_travel_tablet{
+  visibility: collapse;
+}
+
 #for_nav{
   background-repeat: no-repeat;
   width: 100%;
@@ -18,6 +41,16 @@ header label{
   padding: 10px;
 }
 
+#second{
+  background-color: #f7b617;
+  color: white;
+  width: 100%;
+  height: 110vh;
+} 
+
+#new_app{
+  background-color: #f7b617;
+}
 header label:hover{
   cursor: pointer;
 }
@@ -37,8 +70,6 @@ label img{
   height: 5vh;
   width: 20%;
 }
-
-
 
 
 .menu ul{
@@ -173,7 +204,7 @@ p{
 }
 
 #left
-#rigth{
+#right{
   width: 400px; 
   height: 400px;
 }
@@ -191,11 +222,11 @@ p{
   float: left;
 }
 
-#rigth{
+#right{
   float: left;
 }
 
-#start_to_travel{
+#start_to_travel_tablet{
   background-color: #f7b617;
   position: absolute;
   width: 80%;
@@ -242,11 +273,20 @@ button{
   top: 0%;
   padding: 0%;
 }
+}
 
 
-
-
+/* --------------------------------------------------------- */
+/* RESPONSIVE PARA TABLETA */
 @media (max-width: 768px){
+
+  #start_to_travel_desktop{
+    visibility: collapse;
+  }
+
+  #start_to_travel_tablet{
+    visibility: visible;
+  }
   header label{
     display: block;
   }
