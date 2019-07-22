@@ -38,13 +38,8 @@ label img{
   width: 20%;
 }
 
-#left{
-  color: white;
-}
 
-#left ul li{
-  padding: 3%;
-}
+
 
 .menu ul{
   margin: 0%;
@@ -158,7 +153,50 @@ p{
 #fifth{
   background: #2b2b2b;
   width: 100%;
-  height: 70rem;
+  height: 35rem;
+}
+
+#technologies_inc{
+  color: white;
+}
+
+#containerfoot{
+  width: 800px;
+  padding: 0%;
+  margin: 0%;
+  height: 450px;
+}
+
+#left ul li{
+  padding: 5%;
+  color: white;
+}
+
+#left
+#rigth{
+  width: 400px; 
+  height: 400px;
+}
+
+#rigth p{
+  width: 10%;
+  background-color: red;
+  height: 9rem;
+}
+
+#left ul li{
+  width: 100%;
+}
+#left ul{
+  width: 400px;
+}
+
+#left{
+  float: left;
+}
+
+#rigth{
+  float: left;
 }
 
 #start_to_travel{
@@ -260,7 +298,7 @@ button{
   }
 
   #p_new_app{
-    margin-top: 8%;
+    margin-top: 3%;
     margin-left: 40%;
   }
 
