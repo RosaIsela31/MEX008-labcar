@@ -160,6 +160,14 @@ header label{
   height: 110vh;
 } 
 
+#parrafo1_A{
+  font-size: 190%;
+}
+
+#parrafo2_A{
+  font-size: 100%;
+}
+
 #new_app{
   background-color: #f7b617;
 }
