@@ -1,5 +1,29 @@
+header{
+  position: static;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* ---------------------------------------------------------- */
 @media (max-width: 1024px){ 
+
+  .img_conduce{
+    height: 95vh;
+  }
+
+  #fourth_web{
+    width: 100%;
+    height: 100vh;
+  }
+
+  #C,
+  #D{
+    width: 50%;
+  }
+
+  
   #become_drive_web{
     background-color: #f7b617;
     color: white;
@@ -31,6 +55,8 @@
 }
 
 #drive_when_you_want_transparent,
+#fourth,
+#drive_when_you_want_transparent,
 #p_arrive_destination,
 #second{
   display: none;
@@ -43,6 +69,7 @@
   height: 100vh;
 } 
 
+
 #A,
 #B{
   width: 50%;
@@ -50,12 +77,12 @@
   padding-top: 7%;
   padding-left: 10%;
 }
-
+#C,
 #A{
   background-color: #f7b617;
   float: right;
 }
-
+#D,
 #B{
   background-color: #f7b617;
   float: left;
@@ -342,11 +369,14 @@ button{
 /* --------------------------------------------------------- */
 /* RESPONSIVE PARA TABLETA */
 @media (max-width: 768px){
-
+  #fourth_web,
+  #web_drive_when_you_want_transparent,
   #second_web{
     display: none;
   }
   
+  #drive_when_you_want_transparent,
+  #fourth,
   #drive_when_you_want_transparent,
   #p_arrive_destination,
   #second{
