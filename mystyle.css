@@ -96,16 +96,35 @@ body{
   background-color: #f7b617;
   position: absolute;
   width: 50%;
-  height: 39%;
+  height: 45%;
   top: 30%;  
   right: 0%;
+  font-size: 200%;
+  padding-top: 0%;
+  padding: 5%;
+}
+#p_viaja_con{
+  font-size: 80%;
+}
+
+#o_bien{
+  font-size: 50%;
 }
 #btn_become_drive_desktop,
 #btn_register_desktop{
   background-color: #fff;
-  padding: 2%;
-  width: 25%;
-  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+#btn_become_drive_desktop{
+  width: 60%;
+}
+
+#btn_register_desktop{
+  width: 30%;
 }
 
 
