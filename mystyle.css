@@ -1,31 +1,64 @@
 /* ---------------------------------------------------------- */
 @media (max-width: 1024px){ 
- 
+  #become_drive_web{
+    background-color: #f7b617;
+    color: white;
+    width: 60%;
+    padding: 3%;
+    border-radius: 10px;
+  }
+  
 
-/* #new_app{
+  #web_drive_when_you_want_transparent{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0%; 
+    right: 0%;
+  }
+  
+
+#new_app_web{
     background-color: #f7b617;
     position: relative;
     width: 95%;
-    height: 80%;
+    height: 90vh;
     margin: 0 auto;
-    padding-top: 4.5%;
     top: 7%; 
-    border: 1px solid red;
-} */
+    border: 1px solid white;
+}
+
+#drive_when_you_want_transparent,
+#p_arrive_destination,
+#second{
+  display: none;
+}
+
+#second_web{
+  background-color: #f7b617;
+  color: white;
+  width: 100%;
+  height: 100vh;
+} 
 
 #A,
 #B{
   width: 50%;
-  height: 20vh;
+  height: 85vh;
+  padding-top: 7%;
+  padding-left: 10%;
 }
 
 #A{
-  background-color: red;
+  background-color: #f7b617;
   float: right;
 }
 
 #B{
-  background-color: green;
+  background-color: #f7b617;
+  float: left;
 }
 
 #start_to_travel_desktop{
@@ -46,8 +79,7 @@
 }
 
 
-#p_arrive_destination,
-#new_app,
+
 #start_to_travel_tablet{
   visibility: collapse;
 }
@@ -311,6 +343,16 @@ button{
 /* RESPONSIVE PARA TABLETA */
 @media (max-width: 768px){
 
+  #second_web{
+    display: none;
+  }
+  
+  #drive_when_you_want_transparent,
+  #p_arrive_destination,
+  #second{
+    display: block;
+  }
+
   #start_to_travel_desktop{
     visibility: collapse;
   }
@@ -342,6 +384,7 @@ button{
   }
 
   #second{
+    visibility: visible;
     background-color: #f7b617;
     color: white;
     width: 100%;
