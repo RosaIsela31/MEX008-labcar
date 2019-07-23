@@ -9,6 +9,8 @@ body{
 /* ---------------------------------------------------------- */
 @media (max-width: 1024px){ 
 
+  
+
   .img_conduce{
     height: 95vh;
   }
@@ -530,4 +532,3 @@ button{
 
   
 /* TERMINA RESPONSIVE */
-
