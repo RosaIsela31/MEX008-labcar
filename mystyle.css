@@ -7,14 +7,18 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container{
-  width: 90%;
+  width: 100%;
+  position: cover;
   max-width: 1000px;
   margin: auto;
   display: grid;
 }
+
 
 
 
@@ -42,7 +46,7 @@ header{
 
 
 /* ---------------------------------------------------------- */
-@media (max-width: 1024px){ 
+@media (max-width: 1560px){ 
 
   
 
@@ -254,8 +258,8 @@ label img{
 
 #first{
   color: white;
-  width: 100%;
   position: relative;
+  position: cover;
 }
 
 #first img{
