@@ -44,7 +44,7 @@ header{
 /* ---------------------------------------------------------- */
 @media (max-width: 1560px){ 
 
-  .y{
+  #x{
     float: right;
   }
 
@@ -57,7 +57,6 @@ header{
     padding: 0;
     width: auto;
     position: cover;
-    max-width: 1000px;
     margin: auto;
     display: grid;
   }
