@@ -926,7 +926,7 @@ button{
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 #right{
@@ -942,7 +942,7 @@ button{
 }
 
 .img-logos{
-  width: 10rem;
+  width: 8rem;
   padding: 0%;
   margin: 0%;
 }
@@ -956,10 +956,115 @@ body{
   overflow-x: hidden;
 }
 
+.li-tablet,
+.menu-tablet,
+.logo-nav-tablet{
+  display: none;
+}
+
 }
 
 
-body{
-  width: 100vw;
-  overflow-x: hidden;
+
+/* ------------------------------------------------- */
+/* CELULAR RESPONSIVE */
+@media (max-width: 768px){ 
+
+  .li-tablet{
+    display: block;
+  }
+
+  .container{
+    width: 100%;
+  }
+  
+  .header{
+    background-color: white;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .menu-tablet{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+
+  .logo-nav-tablet{
+    width: 8rem;
+    height: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 15rem;
+
+  }
+
+  nav ul li {
+    text-decoration: none;
+  }
+
+  .li-tablet{
+    text-decoration-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-decoration-style: none;
+    padding: .5rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    color: black;
+  }
+
+
+  .footer{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .all-icons{
+    width: 10rem;
+  }
+
+  #left{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    width: 40%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  
+  #right{
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #fifth{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+.li-tablet{
+  display: none;
 }
