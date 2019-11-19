@@ -1,8 +1,12 @@
 /* Código con Grid Areas - Responsive */
 
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
+}
+
+.icon{
+  color: white;
 }
 
 body{
@@ -43,10 +47,78 @@ header{
 
 /* ---------------------------------------------------------- */
 @media (max-width: 1560px){ 
+  /* Modal Style (modal popup box)*/
+.centrar {
+  display: inline-table;
+}
 
-  #x{
-    float: right;
+form label, form input {
+  display: block;
+  text-align: left;
+}
+form input {
+  margin-bottom: 1rem;
+  padding: .5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal2,
+.modal {
+  position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+  background:  rgba(0, 0, 0, 0.5);
+  opacity: 0;
+	visibility: hidden;
+	transform: scale(1.1);
+	transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #36C9C6;
+	padding: 1rem 1.5rem;
+	width: 24rem;
+	border-radius: 0.5rem;
+}
+
+.close-button2,
+.close-button {
+	float: right;
+	width: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 0.25rem;
+	background-color: lightgray;
+}
+
+.close-button:hover {
+	background-color: darkgray;
+}
+.show-modal2,
+.show-modal {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1.0);
+	transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+/* termina modal */
+
+
+
+  .icon{
+    color: white;
+    margin-top: 50vh;
   }
+
+
 
   #web_containerfoot{
     display: block;
@@ -62,7 +134,7 @@ header{
   }
 
   .img_conduce{
-    height: 70vh;
+    height: 80vh;
   }
 
   #fourth_web{
@@ -113,7 +185,7 @@ header{
     color: white;
     position: absolute;
     width: 40%;
-    height: 70vh;
+    height: 80vh;
     top: 0%; 
     right: 0%;
     padding: 5%;
@@ -167,6 +239,10 @@ header{
 }
 
 #start_to_travel_desktop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   visibility: visible;
   background-color: #f7b617;
   position: absolute;
@@ -177,6 +253,7 @@ header{
   font-size: 200%;
   padding-top: 0%;
   padding: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #p_viaja_con{
   font-size: 80%;
@@ -213,9 +290,9 @@ header{
   width: 100%;
 }
 
-header{
+.header{
   width: 100%;
-  height: 15vh;
+  height: 25vh;
   background-color: white;
 }
 
@@ -242,9 +319,6 @@ header label{
   font-size: 100%;
 }
 
-#new_app{
-  background-color: #f7b617;
-}
 header label:hover{
   cursor: pointer;
 }
@@ -265,7 +339,9 @@ label img{
   width: 20%;
 }
 
-
+.menu{
+  background-color: white;
+}
 .menu ul{
   margin: 0%;
   list-style: none;
@@ -305,12 +381,6 @@ label img{
   padding: 0%;
 }
 
-/* este es para web
-  #second{
-  background: #f7b617;
-  width: 100%;
-  height: 110vh;
-} */
 p{
   margin: 0%;
   padding: 0%;
@@ -392,33 +462,7 @@ p{
   height: 450px;
 }
 
-#left ul li{
-  padding: 5%;
-  color: white;
-}
 
-#left
-#right{
-  width: 400px; 
-  height: 400px;
-}
-
-
-
-#left ul li{
-  width: 100%;
-}
-#left ul{
-  width: 400px;
-}
-
-#left{
-  float: left;
-}
-
-#right{
-  float: left;
-}
 
 #start_to_travel_tablet{
   background-color: #f7b617;
@@ -429,16 +473,6 @@ p{
   right: 0%;
 }
 
-/* esto es para web
-  #new_app{
-  background-color: blue;
-  position: relative;
-  width: 80%;
-  height: 75%;
-  margin: 0 auto;
-  padding-top: 4.5%;
-  top: 12%;  
-} */
 
 #drive_when_you_want_transparent{
   background-color: transparent;
@@ -478,6 +512,11 @@ button{
   #web_drive_when_you_want_transparent,
   #second_web{
     display: none;
+  }
+
+  .icon{
+    color: white;
+    margin-top: 0%;
   }
 
   .container{
@@ -642,6 +681,252 @@ button{
   } 
 
    
-
+  #burger{
+    display: none;
+  }
   
 /* TERMINA RESPONSIVE */
+
+
+/* ------------------------------------------------- */
+/* CELULAR RESPONSIVE */
+@media (max-width: 425px){
+  .header{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    position: static;
+  }
+
+  #burger{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: darkgray;
+    border-radius: 5px;
+  }
+
+  .logo-nav-mobile{
+    padding: 1rem;
+    padding-left: 3rem;
+  }
+
+  #first{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    position: relative;
+    position: cover;
+    width: 100%;
+  }
+
+  #first img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 30rem;
+    position: relative;
+  }
+
+#start_to_travel_tablet{
+  margin: 0%;
+  padding: 0%;
+  background-color: #f7b617;
+  position: absolute;
+  width: 80%;
+  height: 45%;
+  top: 30%;  
+  right: 0%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+#download_app{
+  margin: 0%;
+  padding: 0%;
+  background-color: #fff;
+  width: 50%;
+  height: 3rem;
+  border-radius: 7px;
+  font-size: .9rem;
+  padding: .7rem;
+  margin-top: 2rem;
+}
+
+#second{
+  margin: 0%;
+  padding: 0%;
+  background-color: #f7b617;
+  color: white;
+  width: 100%;
+  height: 35rem;
+} 
+
+#new_app{
+  margin: 0%;
+  padding: 0%;
+  visibility: visible;
+  background-color: #f7b617;
+  position: relative;
+  width: 95%;
+  height: 30rem;
+  margin: 0 auto;
+  padding-top: 4.5%;
+  top: 7%; 
+  border: 1px solid white;
+}
+
+#p_new_app{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 3%;
+  margin-left: 20%;
+  font-size: 2rem;
+}
+
+#cel{
+  margin: 0%;
+  padding: 0%;
+  margin-left: 26%;
+  height: 15rem;
+  margin-top: 5rem
+}
+
+#third{
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  width: 100%;
+  position: relative;
+  height: 20rem; 
+}
+
+.img_conduce{
+  margin: 0%;
+  padding: 0%;
+  height: 20rem;
+}
+
+#drive_when_you_want_transparent{
+  margin: 0%;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 14rem;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#p_drive_when_you_want{
+  margin: 0%;
+  padding: 0%;
+}
+
+#become_drive{
+  margin: 0%;
+  padding: 0%;
+  background-color: #f7b617;
+  color: black;
+  margin-left: 10%;
+  width: 60%;
+  padding: 3%;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+#fourth{
+  margin: 0%;
+  padding: 0%;
+  background: #f7b617;
+  color: white;
+  width: 100%;
+  height: 60rem;
+}
+
+#rates{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 20%;
+  margin-left: 7%;
+}
+
+#destination,
+#initial_location{
+  margin: 0%;
+  padding: 0%;
+  background-color: transparent;
+  color: white;
+  width: 50%;
+  padding: 2%;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+#trace_route{
+  margin: 0%;
+  padding: 0%;
+  background-color: #fff;
+  width: 20%;
+  padding: 2%;
+  margin-left: 35%;
+}
+
+#map{
+  margin: 0%;
+  padding: 0%;
+  width: 70%;
+  height: 45vh;
+  border: 1px solid white;
+  margin: 0% auto;
+}
+
+#map_google{
+  margin: 0%;
+  padding: 0%;
+  width: 95%;
+  height: 40vh;
+  margin: 2%;
+}
+
+#fifth{
+  margin: 0%;
+  padding: 0%;
+  background: #2b2b2b;
+  width: 100%;
+  height: 35rem;
+}
+
+#logo_blanco{
+  margin: 0%;
+  padding: 0%;
+  height: 5vh;
+  width: 20%;
+}
+
+#containerfoot{
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  height: 450px;
+}
+
+}
