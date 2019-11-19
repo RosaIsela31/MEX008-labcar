@@ -17,7 +17,6 @@
           <nav id='burger'>
             <i class="fas fa-bars hamburger" id='burger'></i>
             <img src='imagenes/logo.png' alt='#' class='logo-nav-mobile'/>
-
           </nav>
 
              <nav class="menu">
@@ -30,8 +29,8 @@
           </section>
     </header>
 
-    <section id="modal_login">
-      <!-- INICIA MODAL PARA INICIAR SESIÓN -->
+    <!-- INICIA MODAL PARA INICIAR SESIÓN -->
+    <!-- <section id="modal_login">
       <div class = "modal2">
           <div class="modal-content">
             <span class="close-button2">&times;</span>
@@ -57,9 +56,9 @@
             </form>
           </div> 
         </div>
+      </section> -->
         <!-- TERMINA MODAL PARA INICIAR SESIÓN -->
   
-    </section>
 
 
 
@@ -131,13 +130,13 @@
                     Consulta las tarifas LabCar aquí</p><br><br>
                 <div class="directions">
                     <i class="far fa-dot-circle" id='icon-destination'></i>
-                     <input id="initial_location" type="text" placeholder="Insurgentes Centro, Cuauhtémoc, Ciudad de México, México." alt="Ingrese punto de partida aquí">
+                     <input id="initial_location" type="text" placeholder="Ingrese punto de partida" alt="Ingrese punto de partida aquí">
                 </div>
                 <br><br><br>
 
                 <div class="directions">
                     <i class="fas fa-location-arrow" id='icon-destination'></i>
-                    <input id="destination" type="text" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México, México.">
+                    <input id="destination" type="text" placeholder="Ingrese su destino">
                   </div>
                   <br><br><br>
                   <button id="trace_route"><b>¡TRAZAR RUTA!</b></button>
@@ -169,29 +168,35 @@
             <div id="containerfoot">
                 <div id="left">
                     <ul>
-                      <li>Viaja</li>
-                      <li>Conduce</li>
-                      <li>Ciudades</li>
-                      <li>Entregas</li>
-                      <li>¿Cómo funciona?</li>
-                      <li>Países</li>
+                      <li>Viaja</li><br/>
+                      <li>Conduce</li><br/>
+                      <li>Ciudades</li><br/>
+                      <li>Entregas</li><br/>
+                      <li>¿Cómo funciona?</li><br/>
+                      <li>Países</li><br/>
                       <li>Seguridad</li>
                     </ul>
                   </div>
                   <div id="right"> <br>
-                    <span><i class="fab fa-facebook-f icon"></i></span>
-                    <span><i class="fab fa-twitter icon"></i></span>
-                    <span><i class="fab fa-linkedin-in icon"></i></span>
-                    <span><i class="fab fa-apple icon"></i></span>
-                    <span><i class="fas fa-play icon"></i></span> <br><br><br><br>
-                    <img src="imagenes/google-play.png" alt=""> <br><br>
-                    <img src="imagenes/app-store.png" alt="">
+                    <div class="all-icons">
+                      <span><i class="fab fa-facebook-f icon" id='icon-face'></i></span>
+                      <span><i class="fab fa-twitter icon" id='icon-twit'></i></span>
+                      <span><i class="fab fa-linkedin-in icon" id='icon-link'></i></span>
+                      <span><i class="fab fa-apple icon" id='icon-apple'></i></span>
+                      <span><i class="fas fa-play icon" id='icon-play'></i></span> <br><br><br><br>
+                    </div>
+                    <div class="all-icons">
+                        <img class="img-logos" src="imagenes/google-play.png" alt=""> <br><br><br><br>
+                    </div>
+                    <div class="all-icons">
+                        <img class="img-logos" src="imagenes/app-store.png" alt="">
+                        <br><br>
+                    </div>
                   </div>
             </div>
 
             <div id="web_containerfoot" 
             class="col-12">
-                <
                   
                   <span><i class="fab fa-facebook-f icon"></i></span>
                   <span><i class="fab fa-twitter icon"></i></span>
